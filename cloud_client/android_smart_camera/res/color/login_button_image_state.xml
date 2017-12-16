@@ -1,9 +1,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-<<<<<<< HEAD
     <item android:state_pressed="false" android:drawable="@drawable/btnlwa_gold_loginwithamazon" android:color="@color/login_button_image_state" />
     <item android:state_pressed="true" android:drawable="@drawable/btnlwa_gold_loginwithamazon_pressed" android:color="@color/login_button_image_state"  />
-=======
-    <item android:state_pressed="false" android:drawable="@drawable/btnlwa_gold_loginwithamazon" />
-    <item android:state_pressed="true" android:drawable="@drawable/btnlwa_gold_loginwithamazon_pressed" />
->>>>>>> 7ba82746a1578756c23a8c48ddbf6fa93d554228
 </selector>
