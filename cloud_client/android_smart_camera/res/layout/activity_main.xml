@@ -2,6 +2,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:orientation="vertical"
+    android:background="@drawable/main_backgorund_selector"
+    tools:context="com.dazcodeapps.mobileskillcameratest1.MainActivity" >
+
+
+
+    <FrameLayout
+        android:id="@+id/smartCameraPreviewHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnRowLayout">
+
+        <ImageView
+            android:id="@+id/smartCameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            android:src="@drawable/image_border_drawable"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btnRowLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/listHeader"
+        android:gravity="center"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image"
+            tools:text="@string/select_image"/>
+        <Button
+            android:id="@+id/btnSmartCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smart_camera"
+            tools:text="@string/smart_camera"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btnSmartTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smart_translate"
+            tools:text="@string/smart_translate"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/listHeader"
+        android:layout_above="@id/listView"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/progressBarSmartLabels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtSmartLabelCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text=""
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:numColumns="auto_fit"
+        android:fadeScrollbars="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>
+=======
     tools:context="com.dazcodeapps.mobileskillcameratest1.SmartCameraLauncherActivity" >
 
     <LinearLayout
@@ -97,3 +199,4 @@
 
 
 </RelativeLayout>
+>>>>>>> 7ba82746a1578756c23a8c48ddbf6fa93d554228
