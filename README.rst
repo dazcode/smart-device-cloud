@@ -34,7 +34,7 @@ Current Features
 Current Screenshots
 -------------------
 
-.. image:: https://raw.githubusercontent.com/dazcode/smart-device-cloud/master/Examples/Images/android_smart_device_aws_rekognition_smart_labels_package.png
+.. image:: ./Examples/Images/android_smart_device_aws_rekognition_smart_labels_package.png
 .. image:: ./Examples/Images/android_smart_device_aws_rekognition_smart_labels_cat.png
 .. image:: ./Examples/Images/android_smart_device_aws_rekognition_smart_labels_weapon.png
 .. image:: ./Examples/Images/android_smart_device_aws_rekognition_smart_labels_person.png
