@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdazcode%2Fsmart-device-cloud.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdazcode%2Fsmart-device-cloud?ref=badge_shield)
+
 ========================================
 Smart Device Cloud 
 ========================================
@@ -150,3 +152,7 @@ dazcode@gmail.com
 
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdazcode%2Fsmart-device-cloud.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdazcode%2Fsmart-device-cloud?ref=badge_large)
